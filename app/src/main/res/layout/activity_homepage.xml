@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/homepage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/back"
+    tools:context=".homepage">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/txtcolor"
+        android:text="Welcome to StudyMate !"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp"
+        />
+    <Button
+        android:id="@+id/uninotes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="10dp"
+        android:text="Your University Notes"
+        android:backgroundTint="@color/btncolor"
+        android:textColor="@color/btntxtcolor"
+        />
+    <Button
+        android:id="@+id/allnotes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="10dp"
+        android:text="All University Notes"
+        android:backgroundTint="@color/btncolor"
+        android:textColor="@color/btntxtcolor"
+        />
+    <Button
+        android:id="@+id/uniQues"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="10dp"
+        android:text="Previous Questions"
+        android:backgroundTint="@color/btncolor"
+        android:textColor="@color/btntxtcolor"
+        />
+    <Button
+        android:id="@+id/event"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="10dp"
+        android:text="Event Updates"
+        android:backgroundTint="@color/btncolor"
+        android:textColor="@color/btntxtcolor"
+        />
+    <Button
+        android:id="@+id/profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="10dp"
+        android:text="profile"
+        android:backgroundTint="@color/btncolor"
+        android:textColor="@color/btntxtcolor"
+        />
+    <Button
+        android:id="@+id/leaderboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="10dp"
+        android:text="leaderboard"
+        android:backgroundTint="@color/btncolor"
+        android:textColor="@color/btntxtcolor"
+        />
+    <Button
+        android:id="@+id/campusAmb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:backgroundTint="@color/btncolor"
+        android:textColor="@color/btntxtcolor"
+        android:text="Become a Campus Ambassador"
+        />
+<View
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="2"
+    />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#b0b0b0"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="home"
+            android:background="@null"
+            android:src="@drawable/baseline_homebtn" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="Leaderboard"
+            android:background="@null"
+            android:src="@drawable/baseline_leaderboard" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="Settings"
+            android:background="@null"
+
+            android:src="@drawable/baseline_settings" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="Person"
+            android:background="@null"
+
+            android:src="@drawable/baseline_person" />
+
+    </LinearLayout>
+</LinearLayout>

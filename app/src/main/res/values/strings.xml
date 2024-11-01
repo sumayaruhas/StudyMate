@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Studymate</string>
+    <string-array name="cse">
+        <item>CSE-1101 NOTES:01 COURSE TEACHER : FARZANA</item>
+        <item>CSE-1101 NOTES:02 COURSE TEACHER : ABCDD</item>
+        <item>CSE-1101 NOTES:03 COURSE TEACHER : ERERER</item>
+        <item>CSE-1101 NOTES:04 COURSE TEACHER : FEFET4T</item>
+        <item>CSE-1101 NOTES:05 COURSE TEACHER : TR4T4T4</item>
+        <item>CSE-1101 NOTES:06 COURSE TEACHER : FARZANA</item>
+        <item>CSE-1101 NOTES:07 COURSE TEACHER : ABCDD</item>
+        <item>CSE-1101 NOTES:08 COURSE TEACHER : ERERER</item>
+        <item>CSE-1101 NOTES:09 COURSE TEACHER : FEFET4T</item>
+        <item>CSE-1101 NOTES:10 COURSE TEACHER : TR4T4T4</item>
+
+    </string-array>
+</resources>

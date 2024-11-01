@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/profile"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/back"
+
+    tools:context=".profile">
+
+
+    <ImageView
+        android:layout_marginTop="35dp"
+        android:id="@+id/ProfileIcon"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/dp"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/profile_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sumaya Rahman"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/txtcolor"
+        android:gravity="center"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/university_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="International Islamic University Chittagong"
+        android:textColor="@color/txtcolor"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_marginTop="4dp"/>
+
+    <TextView
+        android:id="@+id/edit_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit Profile"
+        android:gravity="center"
+        android:textColor="@android:color/holo_blue_dark"
+        android:paddingStart="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:clickable="true"
+        android:focusable="true"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#CCCCCC"
+        android:layout_marginTop="16dp" />
+
+
+    <TextView
+        android:id="@+id/upload_note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload a Note"
+        android:padding="16dp"
+        android:clickable="true"
+        android:textColor="@color/txtcolor"
+        android:focusable="true"
+        android:background="?attr/selectableItemBackground"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#CCCCCC"/>
+
+
+    <TextView
+        android:id="@+id/my_downloads"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Downloads"
+        android:padding="16dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:textColor="@color/txtcolor"
+        android:background="?attr/selectableItemBackground"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#CCCCCC"/>
+
+    <TextView
+        android:id="@+id/my_uploads"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Uploads"
+        android:padding="16dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:textColor="@color/txtcolor"
+        android:background="?attr/selectableItemBackground"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#CCCCCC"/>
+
+    <TextView
+        android:id="@+id/help_center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Help Center"
+        android:padding="16dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:textColor="@color/txtcolor"
+        android:background="?attr/selectableItemBackground"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/facebookpng"
+            android:contentDescription="Facebook"
+            android:onClick="openFacebook" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/linked"
+            android:contentDescription="LinkedIn"
+            android:onClick="openLinkedIn" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/linkweb"
+            android:contentDescription="Website"
+            android:onClick="openWebsite" />
+    </LinearLayout>
+
+</LinearLayout>

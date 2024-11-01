@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ques"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back"
+
+    tools:context=".question">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Choose Your Option "
+        android:textColor="@color/txtcolor"
+        android:gravity="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Choose Your Department"
+        android:textColor="@color/txtcolor"
+        android:layout_marginLeft="20dp"
+        />
+    <ListView
+        android:id="@+id/list7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:visibility="gone"/>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <Spinner
+            android:id="@+id/spin7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Choose Your Year"
+        android:textColor="@color/txtcolor"
+
+        android:layout_marginLeft="20dp"
+        />
+    <ListView
+        android:id="@+id/list5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:visibility="gone"/>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <Spinner
+            android:id="@+id/spin5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Choose Your Semester"
+        android:textColor="@color/txtcolor"
+
+        android:layout_marginLeft="20dp"
+        />
+    <ListView
+        android:id="@+id/list6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:visibility="gone"/>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <Spinner
+            android:id="@+id/spin6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Choose Your Course"
+        android:textColor="@color/txtcolor"
+
+        android:layout_marginLeft="20dp"
+        />
+    <ListView
+        android:id="@+id/list8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:visibility="gone"/>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <Spinner
+            android:id="@+id/spin8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            />
+    </LinearLayout>
+    <Button
+        android:id="@+id/questionPaiNakiDekhi"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NEXT"
+        android:backgroundTint="@color/btncolor"
+        android:textColor="@color/btntxtcolor"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+
+        />
+</LinearLayout>

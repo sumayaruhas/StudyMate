@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ca"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back"
+
+    tools:context=".CA">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:padding="16dp">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Complete This Form to Become a Campus Ambassodor and Be a Part of Our Family"
+    android:gravity="center"
+    android:layout_marginTop="25dp"
+    android:textStyle="bold"
+    android:textSize="25dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    />
+    <TextView
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="15dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your name"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+
+    <EditText
+        android:id="@+id/ca_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:layout_marginLeft="20dp"
+android:layout_marginRight="20dp"
+        android:hint="ex. john doe"
+        />
+
+    <TextView
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your University name"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+    <EditText
+        android:id="@+id/ca_Uniname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:layout_marginLeft="20dp"
+        android:hint="ex. Dhaka University"
+        android:layout_marginRight="20dp"
+        />
+    <TextView
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Year and semster"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+    <EditText
+        android:id="@+id/ca_year"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:layout_marginLeft="20dp"
+        android:hint="ex. john doe"
+        android:layout_marginRight="20dp"
+        />
+    <TextView
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your E-mail"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+    <EditText
+        android:id="@+id/ca_mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:layout_marginLeft="20dp"
+        android:hint="ex. john doe"
+        android:layout_marginRight="20dp"
+        />
+    <TextView
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Address"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+    <EditText
+        android:id="@+id/ca_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:layout_marginLeft="20dp"
+        android:hint="ex. john doe"
+        android:layout_marginRight="20dp"
+        />
+    <TextView
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your University website"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+    <EditText
+        android:id="@+id/ca_Uniweb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textUri"
+        android:layout_marginLeft="20dp"
+        android:hint="ex. john doe"
+        android:layout_marginRight="20dp"
+        />
+    <TextView
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Contact Number"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+    <EditText
+        android:id="@+id/ca_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:layout_marginLeft="20dp"
+        android:hint="ex. +923232737"
+        android:layout_marginRight="20dp"
+
+        />
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
+
+            android:backgroundTint="@color/btncolor"
+            android:textColor="@color/btntxtcolor"
+            android:text="Submit"
+            />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#b0b0b0"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="home"
+            android:background="@null"
+            android:src="@drawable/baseline_homebtn" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="Leaderboard"
+            android:background="@null"
+            android:src="@drawable/baseline_leaderboard" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="Settings"
+            android:background="@null"
+
+            android:src="@drawable/baseline_settings" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="Person"
+            android:background="@null"
+
+            android:src="@drawable/baseline_person" />
+
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>
+
