@@ -28,4 +28,58 @@
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       />
+
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_gravity="bottom"
+      android:gravity="center"
+      android:layout_marginBottom="5dp"
+      android:orientation="horizontal"
+      android:padding="8dp">
+
+    <ImageButton
+        android:id="@+id/notesList_home"
+
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:scaleType="fitCenter"
+        android:layout_weight="1"
+        android:contentDescription="home"
+        android:background="@null"
+        android:src="@drawable/baseline_homebtn" />
+
+    <ImageButton
+        android:id="@+id/notesList_lead"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:scaleType="fitCenter"
+        android:layout_weight="1"
+        android:contentDescription="Leaderboard"
+        android:background="@null"
+        android:src="@drawable/baseline_leaderboard" />
+
+    <ImageButton
+        android:id="@+id/notesList_settings"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:scaleType="fitCenter"
+        android:layout_weight="1"
+        android:contentDescription="Settings"
+        android:background="@null"
+
+        android:src="@drawable/baseline_settings" />
+
+    <ImageButton
+        android:id="@+id/notesList_profile"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:scaleType="fitCenter"
+        android:layout_weight="1"
+        android:contentDescription="Person"
+        android:background="@null"
+        android:src="@drawable/baseline_person" />
+
+  </LinearLayout>
 </LinearLayout>

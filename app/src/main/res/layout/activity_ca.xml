@@ -183,6 +183,7 @@ android:layout_marginRight="20dp"
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:background="#b0b0b0"/>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -193,24 +194,31 @@ android:layout_marginRight="20dp"
         android:padding="8dp">
 
         <ImageButton
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:id="@+id/ca_home"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:scaleType="fitCenter"
             android:layout_weight="1"
             android:contentDescription="home"
             android:background="@null"
             android:src="@drawable/baseline_homebtn" />
 
         <ImageButton
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:id="@+id/ca_lead"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:scaleType="fitCenter"
             android:layout_weight="1"
             android:contentDescription="Leaderboard"
             android:background="@null"
             android:src="@drawable/baseline_leaderboard" />
 
         <ImageButton
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:id="@+id/ca_settings"
+
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:scaleType="fitCenter"
             android:layout_weight="1"
             android:contentDescription="Settings"
             android:background="@null"
@@ -218,8 +226,10 @@ android:layout_marginRight="20dp"
             android:src="@drawable/baseline_settings" />
 
         <ImageButton
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:id="@+id/ca_profile"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:scaleType="fitCenter"
             android:layout_weight="1"
             android:contentDescription="Person"
             android:background="@null"

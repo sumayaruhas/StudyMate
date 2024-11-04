@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ListView;
 import android.widget.Spinner;
 
@@ -18,6 +19,7 @@ import java.util.ArrayList;
 
 public class notes extends AppCompatActivity {
         Button btnNijerUniNotes;
+        ImageButton notes1,notes2,notes3,notes4;
 ListView listitem1,listitem2,listitem3,listitem4;
 Spinner s1,s2,s3,s4;
 ArrayList<String> ListValues1 = new ArrayList<>();
@@ -33,6 +35,8 @@ ArrayList<String> spinItems1=new ArrayList<>();
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_notes);
+        notes1=findViewById(R.id.noteshome);
+        notes4=findViewById(R.id.notesprofile);
         listitem1=findViewById(R.id.list1);
         s1=findViewById(R.id.spin1);
         btnNijerUniNotes=findViewById(R.id.nijerUniNotes);
@@ -132,6 +136,20 @@ s1.setAdapter(spinAdapter1);
                         startActivity(IntentNijerUni);
                 }
         });
+notes1.setOnClickListener(new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+                Intent nhome=new Intent(getApplicationContext(), homepage.class);
+                startActivity(nhome);
+        }
+});
+notes4.setOnClickListener(new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+                Intent nprofile = new Intent(getApplicationContext(), profile.class);
+                startActivity(nprofile);
+        }
+});
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.notes), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
